@@ -31,6 +31,18 @@ Debe justificar la eleccion de entidades, tipo de entidades, atributos, relacion
 Suba los archivos: fuente xml y render PDF de su diagrama. Éstos deben quedar ubicados en el directorio `doc/` creado en el repositorio GitHub de la Etapa 1.  
 
 **Símbolos Diagramas ER**  
-![](simbolos-ER.png)  
+![](simbolos-ER.png)    
+
+## Etapa 3  
+
+A partir de los resultados de la Etapa 2:  
+
+1. Elabore un modelo relacional, asignando atributos, tipos de datos (justifique sus elecciones), llaves, ratifique las relaciones y corrija sus diagramas anteriores si lo cree necesario. Se sugiere utilizar https://www.diagrams.net/ para dibujar su diagrama.    
+
+2. Aplique las reglas de normalizacion a su modelo relacional, debe entregar un modeloo que cumpla con la normalizacion de la tercera forma 3FN.  
+
+3. Escriba pequeños scripts intuitivos en base a sentencias SQL para llenar las tablas y establecer las relaciones.  
+
+
 
 
