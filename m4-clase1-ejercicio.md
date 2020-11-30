@@ -1,6 +1,6 @@
 # Modelos de Datos - Ejercicio
 
-En este ejercicio abordaremos una problemática usual en el mundo del desarrollo. Nos enfrentaremos a la lógica de un negocio particular, de análisis de requisitos, y modelamiento de datos datos progresivo para finalmente implementar una base de datos. Ésta será útil parar la implementación de un software que permita apoyar a una empresa en su operación.  
+En este ejercicio abordaremos una problemática usual en el mundo del desarrollo. Nos enfrentaremos a la lógica de un negocio particular, abordando el análisis de la lógica de negocio y modelamiento de datos datos para implementar una base de datos. Esta base de datos está orientada a ser útilizada para la implementación de un software de apoyo a la operación del negicio.  
 
 Resolveremos este problema en 3 Etapas. 
 
@@ -22,16 +22,13 @@ Cree un repositorio GitHub de su archivo y ubíquelo en un directorio doc/ dentr
 
 ## Etapa 2  
 
-En este caso usted deberá modelar el escenario analizado en la Etapa 1, utilizando un diagrama ER. Se entrega a continuación un listado de los elementos estándar para la confección del diagrama.  
+En este caso usted deberá modelar el escenario analizado en la Etapa 1, utilizando un diagrama ER. Al final de el presente documento, se entrega un listado de los elementos estándar para la confección del diagrama.  
 
 Se sugiere utilizar https://www.diagrams.net/ para dibujar su diagrama luego de bosquejarlo de manera manual.  
 
 Debe justificar la eleccion de entidades, tipo de entidades, atributos, relaciones y conectores.  
 
 Suba los archivos: fuente xml y render PDF de su diagrama. Éstos deben quedar ubicados en el directorio `doc/` creado en el repositorio GitHub de la Etapa 1.  
-
-**Símbolos Diagramas ER**  
-![](simbolos-ER.png)    
 
 ## Etapa 3  
 
@@ -44,5 +41,6 @@ A partir de los resultados de la Etapa 2:
 3. Escriba pequeños scripts intuitivos en base a sentencias SQL para llenar las tablas y establecer las relaciones.  
 
 
+## ANEXO: Símbolos Diagramas ER    
 
-
+![](simbolos-ER.png)    
