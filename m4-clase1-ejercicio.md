@@ -20,3 +20,17 @@ Se nos ha encomendado la tarea de crear una hoja de cálculo que permita visibil
 
 Cree un repositorio GitHub de su archivo y ubíquelo en un directorio doc/ dentro del directorio principal del proyecto.  
 
+## Etapa 2  
+
+En este caso usted deberá modelar el escenario analizado en la Etapa 1, utilizando un diagrama ER. Se entrega a continuación un listado de los elementos estándar para la confección del diagrama.  
+
+Se sugiere utilizar https://www.diagrams.net/ para dibujar su diagrama luego de bosquejarlo de manera manual.  
+
+Debe justificar la eleccion de entidades, tipo de entidades, atributos, relaciones y conectores.  
+
+Suba los archivos: fuente xml y render PDF de su diagrama. Éstos deben quedar ubicados en el directorio `doc/` creado en el repositorio GitHub de la Etapa 1.  
+
+**Símbolos Diagramas ER**
+![](simbolos-ER.png)  
+
+
