@@ -1,42 +1,47 @@
 # Modelos de Datos - Ejercicio
 
-En este ejercicio abordaremos una problemática usual en el mundo del desarrollo. Nos enfrentaremos a la lógica de un negocio particular, abordando el análisis de la lógica de negocio y modelamiento de datos datos para implementar una base de datos. Esta base de datos está orientada a ser útilizada para la implementación de un software de apoyo a la operación del negicio.  
+En este ejercicio abordaremos una problemática usual en el mundo del desarrollo, comprendiendo la lógica de negocio y realizando el modelamiento de datos para implementar una base de datos. Ésta será tal que pueda utilizarse para la implementación de un software de apoyo a la operación del negocio.  
 
 Resolveremos este problema en 3 Etapas. 
 
 ## Etapa 1  
 
-Usted debe crear una hoja de cálculo como un favor para un grupo de amigos que poseen una empresa pequeña. Esta empresa fabrica una diversidad de tipos de artículos de cuero. El precio del artículo depende del los costos unitarios de la materia prima utilizada para la fabricación y adicionalmente del tiempo y esfuerzo invertidos en el proceso.   
+Usted debe crear una hoja de cálculo como un favor para un grupo de amigos que poseen una empresa pequeña. Esta empresa fabrica diversos artículos de cuero. El precio de cada artículo depende de:  
+1. Los costos unitarios de la materia prima (Principalmente cuero) utilizada para la fabricación.  
+2. El tiempo y esfuerzo invertidos en el proceso.   
 
-La empresa compra cuero en lotes de diferentes tipos, cada uno de los cuales tiene un precio unitario que varia significativamente según la calidad y el momento de la compra.   
+La empresa compre cuero en lotes que poseen precios distindos dependiendo de la calidad de éstos. Adicionalmente, dada las variaciones en la disponibilidad de las materias primas en el mercado, el precio de éstas varían según la fecha en que se realizan las compras.  
 
-Las existencias en bodega son utilizadas de acuerdo a lo requerido por órdenes de compra que reciben de sus clientes. Cada lote de cuero en sus existencias provee material para múltiples productos vendidos a sus clientes.  
+Las existencias en bodega son utilizadas de acuerdo a lo requerido por las órdenes de compra que la empresa recibe de sus clientes.  
+
+Cada lote de cuero en sus existencias provee material para múltiples productos vendidos a sus clientes.  
 
 Se nos ha encomendado la tarea de crear una hoja de cálculo que permita visibilizar lo siguiente:  
 
 1. Valor actualizado del total de activos (Materias primas y productos en existencia).  
 2. Lotes de cuero en stock, clasificados según calidad.  
 3. Precio y calidad del cuero utilizado para cada producto fabricado.  
+4. Resumen de órdenes de compra recibidas desde distintos clientes, con su correspondiente listado de productos, cantidades, precios y fechas.  
 
 Cree un repositorio GitHub de su archivo y ubíquelo en un directorio doc/ dentro del directorio principal del proyecto.  
 
 ## Etapa 2  
 
-En este caso usted deberá modelar el escenario analizado en la Etapa 1, utilizando un diagrama ER. Al final de el presente documento, se entrega un listado de los elementos estándar para la confección del diagrama.  
+Se solicita modelar el escenario analizado en la **Etapa 1**, utilizando un diagrama ER. Al final de el presente documento, se entrega un listado de los elementos estándar para la confección del diagrama.  
 
-Se sugiere utilizar https://www.diagrams.net/ para dibujar su diagrama luego de bosquejarlo de manera manual.  
+Se sugiere utilizar la [Aplicación **Diagrams.Net**](https://www.diagrams.net/) para dibujar su diagrama.  
 
-Debe justificar la eleccion de entidades, tipo de entidades, atributos, relaciones y conectores.  
+Debe justificar la eleccion de tipos de entidades, atributos, relaciones y conectores.  
 
-Suba los archivos: fuente xml y render PDF de su diagrama. Éstos deben quedar ubicados en el directorio `doc/` creado en el repositorio GitHub de la Etapa 1.  
+Suba los archivos: fuente `xml` y el renderizado `PDF` de su diagrama. Éstos deben estar ubicados en el directorio `doc/` creado en el repositorio GitHub de la **Etapa 1**.  
 
 ## Etapa 3  
 
-A partir de los resultados de la Etapa 2:  
+A partir de los resultados de la **Etapa 2**:  
 
-1. Elabore un modelo relacional, asignando atributos, tipos de datos (justifique sus elecciones), llaves, ratifique las relaciones y corrija sus diagramas anteriores si lo cree necesario. Se sugiere utilizar https://www.diagrams.net/ para dibujar su diagrama.    
+1. Elabore un modelo relacional, asignando atributos, tipos de datos (justifique sus elecciones) y llaves. En esta etapa es posible y aceptable que usted decida actualizar el diagrama de la **Etapa 2**. Se sugiere utilizar la [Aplicación **Diagrams.Net**](https://www.diagrams.net/) para dibujar su diagrama.    
 
-2. Aplique las reglas de normalizacion a su modelo relacional, debe entregar un modeloo que cumpla con la normalizacion de la tercera forma 3FN.  
+2. Aplique las reglas de normalizacion a su modelo relacional, debe entregar un modelo que esté en **3ra Forma Normal**.  
 
 3. Escriba pequeños scripts intuitivos en base a sentencias SQL para llenar las tablas y establecer las relaciones.  
 
