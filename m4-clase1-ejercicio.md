@@ -30,7 +30,7 @@ Debe justificar la eleccion de entidades, tipo de entidades, atributos, relacion
 
 Suba los archivos: fuente xml y render PDF de su diagrama. Éstos deben quedar ubicados en el directorio `doc/` creado en el repositorio GitHub de la Etapa 1.  
 
-**Símbolos Diagramas ER**
+**Símbolos Diagramas ER**  
 ![](simbolos-ER.png)  
 
 
